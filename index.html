@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مشروع المسطبة | Hydrotech للاستثمار الزراعي</title>
+  <meta name="description" content="المسطبة — استثمار زراعي يبدأ من أول ربع فدان بإشراف Hydrotech، بخدمات تشغيل وإدارة كاملة حتى التسويق. احجز سهمك الآن." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <script defer src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Tajawal', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; }
+    .container { max-width: 1140px; }
+    .shadow-soft{ box-shadow: 0 10px 25px rgba(0,0,0,.08); }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <nav class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <img src="assets/logo-color.png" alt="Hydrotech" class="h-9 w-auto rounded-xl"/>
+        <span class="font-extrabold text-xl text-slate-900">Hydrotech | المسطبة</span>
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-sky-700">عن المشروع</a>
+        <a href="#features" class="hover:text-sky-700">المميزات</a>
+        <a href="#gallery" class="hover:text-sky-700">الصور</a>
+        <a href="#contact" class="hover:text-sky-700">تواصل</a>
+      </div>
+      <a href="#contact" class="hidden md:inline-flex items-center gap-2 rounded-xl bg-sky-500 text-white px-4 py-2 text-sm shadow-soft hover:bg-sky-600">
+        احجز سهمك دلوقتي
+      </a>
+      <button id="menuBtn" class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-xl border border-slate-300">
+        <svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </nav>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+      <div class="container mx-auto px-4 py-3 grid gap-3 text-sm">
+        <a href="#about" class="py-1">عن المشروع</a>
+        <a href="#features" class="py-1">المميزات</a>
+        <a href="#gallery" class="py-1">الصور</a>
+        <a href="#contact" class="py-1">تواصل</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative">
+    <div class="absolute inset-0">
+      <img src="assets/gallery-01.jpg" class="w-full h-[56vh] md:h-[68vh] object-cover opacity-90" alt="المسطبة - صورة رئيسية"/>
+    </div>
+    <div class="relative bg-black/30">
+      <div class="container mx-auto px-4 py-16 md:py-24">
+        <div class="max-w-2xl bg-white/85 rounded-3xl p-6 md:p-8 shadow-soft">
+          <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 leading-[1.15]">
+            عالمسطبة … أرضنا لمتنا
+          </h1>
+          <p class="mt-4 text-slate-700 md:text-lg">
+            <strong>المسطبة = الأرض اللي هتلم العيلة وتجيب العائد.</strong>
+            مع Hydrotech استثمارك مضمون، من أول ربع فدان، بخدمات تشغيل وإدارة كاملة لحد التسويق.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#contact" class="inline-flex items-center gap-2 rounded-2xl bg-sky-500 text-white px-5 py-3 font-semibold shadow-soft hover:bg-sky-600">
+              احجز سهمك دلوقتي
+            </a>
+            <a href="#about" class="inline-flex items-center gap-2 rounded-2xl border border-slate-300 px-5 py-3 font-semibold hover:border-sky-400 hover:text-sky-700">
+              اعرف التفاصيل
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-14 bg-white">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">عن مشروع المسطبة</h2>
+        <p class="mt-3 text-slate-600">
+          استثمار زراعي ذكي يبدأ من أول ربع فدان تحت إشراف Hydrotech. بنقدّم حلول متكاملة من اختيار الشتلات
+          والتصميم الزراعي، لإدارة التشغيل والتسويق، علشان تستلم عائدك وانت مطمن.
+        </p>
+        <ul class="mt-4 text-sm list-disc pr-5 text-slate-700 space-y-2">
+          <li>ملكية أسهم مرنة — تبدأ من ربع فدان.</li>
+          <li>تشغيل وإدارة محترفة + تقارير دورية.</li>
+          <li>زراعة مائية وأنظمة ري حديثة لرفع الغلة وتقليل الهدر.</li>
+        </ul>
+      </div>
+      <div class="rounded-3xl overflow-hidden ring-1 ring-slate-200 shadow-soft">
+        <img src="assets/gallery-02.jpg" class="w-full h-72 object-cover" alt="عن المسطبة">
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-soft">
+          <h3 class="font-bold text-lg">استلام فوري</h3>
+          <p class="mt-2 text-sm text-slate-600">تعاقد واضح وخطة تشغيل جاهزة—من أول يوم.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-soft">
+          <h3 class="font-bold text-lg">تشغيل وإدارة كاملة</h3>
+          <p class="mt-2 text-sm text-slate-600">من السماد للري للتسويق—كلها تحت إشراف Hydrotech.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-soft">
+          <h3 class="font-bold text-lg">تقليل المخاطر</h3>
+          <p class="mt-2 text-sm text-slate-600">أنظمة حديثة وجداول تغذية مدروسة لزيادة العائد.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-14 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">صور المشروع</h2>
+      <p class="mt-2 text-slate-600">لقطات حقيقية من الأرض، الصوبة، والتجهيزات.</p>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="assets/gallery-01.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 1"/><img src="assets/gallery-02.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 2"/><img src="assets/gallery-03.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 3"/><img src="assets/gallery-04.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 4"/><img src="assets/gallery-05.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 5"/><img src="assets/gallery-06.jpeg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 6"/><img src="assets/gallery-07.jpeg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 7"/><img src="assets/gallery-08.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 8"/><img src="assets/gallery-09.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 9"/><img src="assets/gallery-10.jpg" class="w-full h-40 md:h-48 object-cover rounded-2xl ring-1 ring-slate-200 shadow-soft" alt="صورة 10"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto px-4">
+      <div class="max-w-2xl">
+        <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">تواصل واحجز سهمك</h2>
+        <p class="mt-3 text-slate-600">سيتم التواصل خلال 24 ساعة عمل.</p>
+      </div>
+      <div class="mt-6 grid md:grid-cols-5 gap-6">
+        <form id="contactForm" class="md:col-span-3 p-6 rounded-2xl bg-white border border-slate-200 shadow-soft">
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm text-slate-600 mb-1">الاسم</label>
+              <input required type="text" name="name" class="w-full rounded-xl border-slate-300 focus:border-sky-500 focus:ring-sky-500" placeholder="الاسم الكامل" />
+            </div>
+            <div>
+              <label class="block text-sm text-slate-600 mb-1">الهاتف</label>
+              <input required type="tel" name="phone" class="w-full rounded-xl border-slate-300 focus:border-sky-500 focus:ring-sky-500" placeholder="مثال: 01012345678" />
+            </div>
+            <div class="md:col-span-2">
+              <label class="block text-sm text-slate-600 mb-1">البريد الإلكتروني</label>
+              <input type="email" name="email" class="w-full rounded-xl border-slate-300 focus:border-sky-500 focus:ring-sky-500" placeholder="example@mail.com" />
+            </div>
+            <div class="md:col-span-2">
+              <label class="block text-sm text-slate-600 mb-1">رسالتك</label>
+              <textarea name="message" rows="4" class="w-full rounded-xl border-slate-300 focus:border-sky-500 focus:ring-sky-500" placeholder="اكتب باختصار ما الذي تريده…"></textarea>
+            </div>
+          </div>
+          <button class="mt-4 inline-flex items-center gap-2 rounded-xl bg-sky-500 text-white px-5 py-3 font-semibold shadow-soft hover:bg-sky-600" type="submit">
+            احجز سهمك دلوقتي
+          </button>
+          <p id="formMsg" class="mt-3 text-sm text-emerald-700 hidden">تم استلام طلبك — هنكلمك قريب.</p>
+        </form>
+        <div class="md:col-span-2 p-6 rounded-2xl bg-white border border-slate-200 shadow-soft flex flex-col gap-4">
+          <div class="flex items-center gap-3">
+            <img src="assets/logo-stamp.png" alt="Hydrotech Seal" class="h-12 w-12 rounded-full ring-1 ring-slate-200"/>
+            <div>
+              <h3 class="font-bold">بيانات التواصل</h3>
+              <p class="text-sm text-slate-600 mt-1">القاهرة — مصر</p>
+            </div>
+          </div>
+          <div class="text-sm text-slate-700 space-y-1">
+            <p>الهاتف: <a class="text-sky-700" href="tel:+201143883002">01143883002</a> — <a class="text-sky-700" href="tel:+201023340962">01023340962</a></p>
+            <p>البريد: <a class="text-sky-700" href="mailto:hydroponic.egy@gmail.com">hydroponic.egy@gmail.com</a></p>
+          </div>
+          <div class="text-sm text-slate-600">ساعات العمل: السبت – الخميس، 9 ص إلى 6 م</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-slate-600">
+      <p>© <span id="year"></span> Hydrotech — مشروع المسطبة. جميع الحقوق محفوظة.</p>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-sky-700">سياسة الخصوصية</a>
+        <a href="#" class="hover:text-sky-700">الشروط والأحكام</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if(menuBtn) { menuBtn.addEventListener('click', ()=> mobileMenu.classList.toggle('hidden')); }
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const form = document.getElementById('contactForm');
+    const formMsg = document.getElementById('formMsg');
+    if(form) { form.addEventListener('submit', function(e){ e.preventDefault(); form.reset(); formMsg.classList.remove('hidden'); formMsg.scrollIntoView({ behavior:'smooth', block:'center' }); }); }
+  </script>
+</body>
+</html>
