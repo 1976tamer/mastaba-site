@@ -1,2 +1,0 @@
-# mastaba-site
-hydrotech-landing
